@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "uwuicy"
+version = "0.1.0"
+description = "Allows the easy implementation of uwuifying words for applications like Discord bots and websites. Only actions and faces."
+authors = ["Cuprum77", "diminDDL", "R2Boyo25", "ThatRedKite", "pin-lee", "Peter-developer01"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "uwuicy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.urls]
+homepage = "https://github.com/Peter-developer01/uwuicy"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
